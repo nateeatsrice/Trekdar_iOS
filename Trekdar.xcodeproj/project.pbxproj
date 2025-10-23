@@ -11,6 +11,13 @@
 		B2E22CC92EA7483D00F4116B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E22CC82EA7483D00F4116B /* ContentView.swift */; };
 		B2E22CCB2EA7484800F4116B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E22CCA2EA7484800F4116B /* Assets.xcassets */; };
 		B2E22CCE2EA7484800F4116B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E22CCD2EA7484800F4116B /* Preview Assets.xcassets */; };
+		B2E22CD62EA9425F00F4116B /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = B2E22CD42EA9425E00F4116B /* locations.json */; };
+		B2E22CD72EA9425F00F4116B /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = B2E22CD52EA9425E00F4116B /* tips.json */; };
+		B2E22CD92EA95E8600F4116B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E22CD82EA95E8600F4116B /* Location.swift */; };
+		B2E22CDB2EA9826A00F4116B /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E22CDA2EA9826A00F4116B /* Locations.swift */; };
+		B2E22CDD2EA9897700F4116B /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E22CDC2EA9897700F4116B /* WorldView.swift */; };
+		B2E22CDF2EAA85B600F4116B /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E22CDE2EAA85B600F4116B /* Tip.swift */; };
+		B2E22CE12EAA861400F4116B /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E22CE02EAA861400F4116B /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		B2E22CC82EA7483D00F4116B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B2E22CCA2EA7484800F4116B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2E22CCD2EA7484800F4116B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2E22CD42EA9425E00F4116B /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		B2E22CD52EA9425E00F4116B /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		B2E22CD82EA95E8600F4116B /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B2E22CDA2EA9826A00F4116B /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		B2E22CDC2EA9897700F4116B /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		B2E22CDE2EAA85B600F4116B /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		B2E22CE02EAA861400F4116B /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				B2E22CC62EA7483D00F4116B /* TrekdarApp.swift */,
+				B2E22CDC2EA9897700F4116B /* WorldView.swift */,
+				B2E22CDA2EA9826A00F4116B /* Locations.swift */,
 				B2E22CC82EA7483D00F4116B /* ContentView.swift */,
+				B2E22CD82EA95E8600F4116B /* Location.swift */,
+				B2E22CDE2EAA85B600F4116B /* Tip.swift */,
+				B2E22CE02EAA861400F4116B /* TipsView.swift */,
+				B2E22CD42EA9425E00F4116B /* locations.json */,
+				B2E22CD52EA9425E00F4116B /* tips.json */,
 				B2E22CCA2EA7484800F4116B /* Assets.xcassets */,
 				B2E22CCC2EA7484800F4116B /* Preview Content */,
 			);
@@ -126,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2E22CCE2EA7484800F4116B /* Preview Assets.xcassets in Resources */,
+				B2E22CD72EA9425F00F4116B /* tips.json in Resources */,
+				B2E22CD62EA9425F00F4116B /* locations.json in Resources */,
 				B2E22CCB2EA7484800F4116B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2E22CD92EA95E8600F4116B /* Location.swift in Sources */,
 				B2E22CC92EA7483D00F4116B /* ContentView.swift in Sources */,
+				B2E22CDD2EA9897700F4116B /* WorldView.swift in Sources */,
+				B2E22CDF2EAA85B600F4116B /* Tip.swift in Sources */,
+				B2E22CE12EAA861400F4116B /* TipsView.swift in Sources */,
+				B2E22CDB2EA9826A00F4116B /* Locations.swift in Sources */,
 				B2E22CC72EA7483D00F4116B /* TrekdarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
