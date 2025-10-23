@@ -27,10 +27,15 @@ struct WorldView: View {
                 }
             }
         }
+// .navigationTitle() is an attached method on the NavigationView
+// in TrekdarApp.swift, when scrolling down it fills in at the top
+// of screen letting you know what section you are in.
         .navigationTitle("Locations")
     }
 }
-
+// The code below does not get uploaded to the app store when
+// launched in production, it is used in xcode so we can see
+// what the preview will look like.
 struct WorldView_Previews: PreviewProvider {
     static var previews: some View {
         WorldView()

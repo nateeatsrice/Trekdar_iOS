@@ -9,7 +9,7 @@ import Foundation
 
 class Locations: ObservableObject {
     let places: [Location]
-
+// return the first item of the array places, return the 1st location
     var primary: Location {
         places[0]
     }

@@ -33,6 +33,7 @@
 		B2E22CDC2EA9897700F4116B /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 		B2E22CDE2EAA85B600F4116B /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		B2E22CE02EAA861400F4116B /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		B2E22CE22EAA922E00F4116B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				B2E22CC62EA7483D00F4116B /* TrekdarApp.swift */,
-				B2E22CDC2EA9897700F4116B /* WorldView.swift */,
-				B2E22CDA2EA9826A00F4116B /* Locations.swift */,
 				B2E22CC82EA7483D00F4116B /* ContentView.swift */,
-				B2E22CD82EA95E8600F4116B /* Location.swift */,
-				B2E22CDE2EAA85B600F4116B /* Tip.swift */,
+				B2E22CDC2EA9897700F4116B /* WorldView.swift */,
 				B2E22CE02EAA861400F4116B /* TipsView.swift */,
+				B2E22CD82EA95E8600F4116B /* Location.swift */,
+				B2E22CDA2EA9826A00F4116B /* Locations.swift */,
+				B2E22CDE2EAA85B600F4116B /* Tip.swift */,
+				B2E22CE22EAA922E00F4116B /* Info.plist */,
 				B2E22CD42EA9425E00F4116B /* locations.json */,
 				B2E22CD52EA9425E00F4116B /* tips.json */,
 				B2E22CCA2EA7484800F4116B /* Assets.xcassets */,
