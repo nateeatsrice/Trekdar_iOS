@@ -19,6 +19,10 @@ struct TrekrApp: App {
                 NavigationView {
                     ContentView(location: locations.primary)
                 }
+// The following tab items contain the name of each tab (Discover, Locations, and Tips)
+// Above each tab name there is a small icon
+
+
                 .tabItem {
                     Image(systemName: "airplane.circle.fill")
                     Text("Discover")

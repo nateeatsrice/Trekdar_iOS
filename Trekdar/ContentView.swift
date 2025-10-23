@@ -29,10 +29,10 @@ struct ContentView: View {
                 .padding(.horizontal)
 
             Text("Did you know?")
-//              Slightly smaller title font
+// Slightly smaller title font but still bold
                 .font(.title3)
                 .bold()
-//            only add padding to the tip of the 
+// Only add padding to the top of "Did you know?"
                 .padding(.top)
 
             Text(location.more)
