@@ -29,11 +29,9 @@ struct ContentView: View {
                 .padding(.horizontal)
 
             Text("Did you know?")
-// Slightly smaller title font but still bold
-                .font(.title3)
+                .font(.title3)// Slightly smaller title font but still bold
                 .bold()
-// Only add padding to the top of "Did you know?"
-                .padding(.top)
+                .padding(.top)// Only add padding to the top of "Did you know?"
 
             Text(location.more)
                 .padding(.horizontal)
@@ -48,6 +46,9 @@ struct ContentView: View {
 // launched in production, it is used in xcode so we can see
 // what the preview will look like.
 struct ContentView_Previews: PreviewProvider {
+// The static is needed here since the example is included in the ContentView data structure
+// This normally would lead to a recursive explosion but if we put static that stops this from happening.
+// Static says that example is created only once and is shared everywhere. don't make infinite copied of example
     static var previews: some View {
 // The NavigationView allows the app to not crowd the top of the screen when scrolling down.
 // This is supper useful for apps where we dont want clunky overlap of text with the notification bar

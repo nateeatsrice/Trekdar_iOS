@@ -6,7 +6,8 @@
 //  Create the data structure named Location. We need this data structure to pull one location from the locations.json file
 
 import Foundation
-
+// Struct creates a unique data structure where everytime it is called it makes a unique instance of the data object
+//
 struct Location: Decodable, Identifiable {
     let id: Int
     let name: String
