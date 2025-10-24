@@ -7,7 +7,7 @@
 
 import Foundation
 // Struct creates a unique data structure where everytime it is called it makes a unique instance of the data object
-//
+// Decodable tells swift that our Location struct is decodable from JSON
 struct Location: Decodable, Identifiable {
     let id: Int
     let name: String

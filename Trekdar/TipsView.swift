@@ -17,12 +17,13 @@ struct TipsView: View {
     }
 
     var body: some View {
+        //if the tips from our list 
         List(tips, id: \.text, children: \.children) { tip in
             if tip.children != nil {
                 Label(tip.text, systemImage: "quote.bubble")
                     .font(.headline)
             } else {
-                Text(tip.text)
+                Text(tip.text)//notice Last tip does not have children
             }
         }
 // .navigationTitle() is an attached method on the NavigationView
